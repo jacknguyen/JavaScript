@@ -1,0 +1,15 @@
+var user = prompt("To open your front door. To your amazement the door now leads into a dimly lit alleyway. Do you SHUT THE DOOR, TURN LEFT and go down the alley, or TURN RIGHT and go down the alley?").toUpperCase();
+
+switch(user){
+    case 'SHUT THE DOOR':
+        alert("Man up next time!");
+        break;
+    case 'TURN LEFT':
+        alert("It only gets darker from here.");
+        break;
+    case 'TURN RIGHT':
+        alert("Heading as you normally do, you reach the stairs and headed off to work. Nothing exciting about that.");
+        break;
+    default:
+        alert("What sort of answer is " +user +".");
+}
