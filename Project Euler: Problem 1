@@ -1,0 +1,17 @@
+var multOfThree = [];
+var multOfFive = [];
+var multOfThreeAndFive = ();
+
+for (var i=0;i<1000;i++){
+    if (i%3 === 0){
+    multOfThree.push(i);
+    }else if (i%5 === 0){
+    multOfFive.push(i);
+    }else{
+    }
+}
+
+console.log(multOfThree.length);
+console.log(multOfFive.length);
+
+for (var )
