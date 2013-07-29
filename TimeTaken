@@ -1,0 +1,4 @@
+var start = +new Date();  // log start timestamp
+function1();
+var end =  +new Date();  // log end timestamp
+var diff = end - start;
