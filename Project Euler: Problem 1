@@ -1,17 +1,16 @@
-var multOfThree = [];
-var multOfFive = [];
-var multOfThreeAndFive = ();
+var multOfThreeAndFive = [];
+var total = 0;
 
 for (var i=0;i<1000;i++){
     if (i%3 === 0){
-    multOfThree.push(i);
+    multOfThreeAndFive.push(i);
     }else if (i%5 === 0){
-    multOfFive.push(i);
-    }else{
+    multOfThreeAndFive.push(i);
     }
 }
 
-console.log(multOfThree.length);
-console.log(multOfFive.length);
+for (var x in multOfThreeAndFive){
+    total+=multOfThreeAndFive[x];
+}
 
-for (var )
+console.log("The sum of all the multiples of 3 or 5 below 1000 is " + total);
