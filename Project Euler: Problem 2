@@ -1,0 +1,9 @@
+var Fibonacci = [1,2,5,3,2];
+
+console.log(Fibonacci.length-2);
+
+
+
+var firstNumber = function (Fibonacci){
+    
+};
