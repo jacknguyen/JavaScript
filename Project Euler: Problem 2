@@ -1,9 +1,21 @@
-var Fibonacci = [1,2,5,3,2];
+function sumOfEven(max_Num){
 
-console.log(Fibonacci.length-2);
-
-
-
-var firstNumber = function (Fibonacci){
+    var currentNum = 1,
+        previousNum = 0,
+        addNum = 0,
+        totalNum = 0;
     
-};
+    while (currentNum<max_Num){
+        addNum = currentNum+previousNum;
+        previousNum = currentNum;
+        currentNum = addNum;
+        
+        if (currentNum%2 === 0){
+            totalNum +=currentNum;
+        }
+    }
+    
+    console.log(totalNum);
+}
+
+sumOfEven(4000000);
