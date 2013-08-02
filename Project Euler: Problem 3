@@ -1,0 +1,20 @@
+function whatIsLargestPrimeNumber(num) {
+    
+    var n = num,
+    primeHigh = 2,
+    calcPrime = 0,
+    modPrime = 0;
+    
+    while (calcPrime !=1){
+    calcPrime = n/primeHigh; 
+    n = calcPrime;
+    modPrime = n%primeHigh;
+    
+        if (modPrime!==0){
+            modPrime++;
+        }
+    }
+    
+}
+
+whatIsLargestPrimeNumber(20);
