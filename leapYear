@@ -1,0 +1,11 @@
+var year = prompt("Give me a year: ");
+
+var leapYear = function (){
+    if (year%4 === 0 && year%100 !== 0){
+        alert("It is a leap year.");
+    }else if (year%4 === 0 && year%100 === 0 && year%400 === 0){
+        alert("It is a leap year.");      
+    }else{
+	    alert("It is NOT a leap year.");
+    }
+};
